@@ -1,0 +1,14 @@
+GET http://localhost:9999/authorize?user=admin&password=0000
+Content-Type: application/json
+
+###
+
+GET http://localhost:9999/authorize?user=user1&password=1111
+Content-Type: application/json
+
+###
+
+GET http://localhost:9999/authorize?user=&password=1111
+Content-Type: application/json
+
+###
