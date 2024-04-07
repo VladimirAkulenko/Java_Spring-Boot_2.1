@@ -1,0 +1,7 @@
+version: '1'
+
+services:
+  springbootrest:
+    build: ./
+    ports:
+      - '9999:9999'
